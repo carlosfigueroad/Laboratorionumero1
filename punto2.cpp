@@ -12,3 +12,4 @@ void ejercicio2() { // Cambia 'ejercicio' por 'ejercicio2'
         std::cout << N << " es impar" << std::endl;
     }
 }
+
