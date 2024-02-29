@@ -3,6 +3,7 @@
 #include "punto2.h"
 #include "punto3.h"
 #include "punto4.h"
+#include "punto5.h"
 using namespace std;
 
 int main(){
