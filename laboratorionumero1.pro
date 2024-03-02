@@ -9,11 +9,13 @@ SOURCES += \
         punto2.cpp \
         punto3.cpp \
         punto4.cpp \
-        punto5.cpp
+        punto5.cpp \
+        punto6.cpp
 
 HEADERS += \
     punto1.h \
     punto2.h \
     punto3.h \
     punto4.h \
-    punto5.h
+    punto5.h \
+    punto6.h

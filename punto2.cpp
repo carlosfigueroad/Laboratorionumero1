@@ -3,7 +3,7 @@
 
 void ejercicio2() { // Cambia 'ejercicio' por 'ejercicio2'
     int N;
-    std::cout << "Por favor ingresa un número: ";
+    std::cout << "Por favor ingresa un numero: ";
     std::cin >> N;
 
     if (N % 2 == 0) {
