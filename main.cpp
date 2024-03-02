@@ -5,6 +5,11 @@
 #include "punto4.h"
 #include "punto5.h"
 #include "punto6.h"
+#include "punto7.h"
+#include "nuevopunto1.h"
+#include "nuevopunto2.h"
+#include "nuevopunto3.h"
+#include "Fecha.h"
 using namespace std;
 
 int main(){
@@ -14,6 +19,10 @@ int main(){
     ejercicio4();
     ejercicio5();
     ejercicio6();
+    ejercicio7();
+    nuevoejercicio1();
+    nuevoejercicio2();
+    nuevoejercicio3();
 
     return 0;
 }
