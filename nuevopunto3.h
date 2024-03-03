@@ -1,6 +1,7 @@
 #ifndef NUEVOPUNTO3_H
 #define NUEVOPUNTO3_H
 
-int nuevoejercicio3();
+// Declaración de la función del nuevo ejercicio 3
+void nuevoEjercicio3();
 
-#endif // NUEVOPUNTO3_H
+#endif

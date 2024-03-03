@@ -8,6 +8,7 @@ SOURCES += \
         nuevopunto1.cpp \
         nuevopunto2.cpp \
         nuevopunto3.cpp \
+        nuevopunto4.cpp \
         punto1.cpp \
         punto2.cpp \
         punto3.cpp \
@@ -20,6 +21,7 @@ HEADERS += \
     nuevopunto1.h \
     nuevopunto2.h \
     nuevopunto3.h \
+    nuevopunto4.h \
     punto1.h \
     punto2.h \
     punto3.h \

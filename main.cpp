@@ -9,7 +9,8 @@
 #include "nuevopunto1.h"
 #include "nuevopunto2.h"
 #include "nuevopunto3.h"
-#include "Fecha.h"
+#include "nuevoejercicio4.h"
+
 using namespace std;
 
 int main(){
@@ -22,9 +23,17 @@ int main(){
     ejercicio7();
     nuevoejercicio1();
     nuevoejercicio2();
-    nuevoejercicio3();
+    nuevoEjercicio3();
 
-    return 0;
+
+     return 0;
+
 }
+void tiempo(int id)
+{
+    Tiempo t;
+    cout << "El hora es: " << t.calcularDiferencia(tiempoInicial, tiempoFinal) << endl;
+}
+
 
 

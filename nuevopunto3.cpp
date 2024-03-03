@@ -1,24 +1,20 @@
-// Archivo: main.cpp
-#include "Fecha.h"
+#include "nuevopunto3.h"
 #include <iostream>
 
-int main() {
-    Fecha fecha;
+void nuevoEjercicio3() {
+    // Implementación de la función del nuevo ejercicio 3
     int dia, mes;
-    std::cout << "Introduce el día: ";
+    std::cout << "Introduce el dia: ";
     std::cin >> dia;
     std::cout << "Introduce el mes: ";
     std::cin >> mes;
-    fecha.setDia(dia);
-    fecha.setMes(mes);
 
-    if(fecha.esValida()) {
-        if (dia == 29 && mes == 2) std::cout << "29/2 es válida en bisiesto.\n";
-        else std::cout << dia << "/" << mes << " es una fecha válida.\n";
+    if ((mes >= 1 && mes <= 12) && (dia >= 1 && dia <= 31)) {
+        std::cout << dia << "/" << mes << " es una fecha valida.\n";
+        if (dia == 29 && mes == 2) {
+            std::cout << "Posiblemente año bisiesto.\n";
+        }
     } else {
-        if (mes < 1 || mes > 12) std::cout << mes << " es un mes inválido.\n";
-        else std::cout << dia << "/" << mes << " es una fecha inválida.\n";
+        std::cout << dia << "/" << mes << " es una fecha invalida.\n";
     }
-
-    return 0;
 }
