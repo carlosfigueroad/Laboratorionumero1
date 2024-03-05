@@ -6,12 +6,15 @@ CONFIG -= qt
 SOURCES += \
         main.cpp \
         nuevopunto1.cpp \
+        nuevopunto10.cpp \
+        nuevopunto11.cpp \
         nuevopunto2.cpp \
         nuevopunto3.cpp \
         nuevopunto4.cpp \
         nuevopunto5.cpp \
         nuevopunto6.cpp \
         nuevopunto8.cpp \
+        nuevopunto9.cpp \
         punto1.cpp \
         punto2.cpp \
         punto3.cpp \
@@ -22,12 +25,15 @@ SOURCES += \
 
 HEADERS += \
     nuevopunto1.h \
+    nuevopunto10.h \
+    nuevopunto11.h \
     nuevopunto2.h \
     nuevopunto3.h \
     nuevopunto4.h \
     nuevopunto5.h \
     nuevopunto6.h \
     nuevopunto8.h \
+    nuevopunto9.h \
     punto1.h \
     punto2.h \
     punto3.h \

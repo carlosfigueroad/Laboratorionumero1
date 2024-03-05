@@ -3,7 +3,7 @@
 
 void nuevoejercicio5() {
     int size;
-    std::cout << "Por favor, ingrese un número impar: ";
+    std::cout << "Por favor, ingrese un numero impar: ";
     std::cin >> size;
     if(size % 2 == 0){
         std::cout << "El número ingresado no es impar. Por favor, intente de nuevo.";

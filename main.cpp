@@ -13,6 +13,9 @@
 #include "nuevopunto5.h"
 #include "nuevopunto6.h"
 #include "nuevopunto8.h"
+#include "nuevopunto9.h"
+#include "nuevopunto10.h"
+#include "nuevopunto11.h"
 using namespace std;
 
 int main(){
@@ -33,6 +36,17 @@ int main(){
         // Llama a la función y muestra el resultado
         int resultado = calcularSumaMultiplos(a, b, c);
         std::cout << resultado <<endl;
+    nuevoejercicio9();
+    int N;
+        std::cout << "Ingrese un numero: ";
+        std::cin >> N;
+    nuevoejercicio10(N);
+    int N;
+        std::cout << "Ingrese un número para calcular su posición en la serie de Fibonacci: ";
+        std::cin >> N;
+
+        nuevoejercicio11(N);
+    ejercicio();
     ejercicio2();
     ejercicio3();
     ejercicio4();
