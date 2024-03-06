@@ -1,7 +1,7 @@
 #ifndef NUEVOPUNTO11_H
 #define NUEVOPUNTO11_H
 
-// Declara la función "nuevoejercicio11" que toma un entero como argumento
-void nuevoejercicio11(int n);
+// Declara la función nuevoejercicio11 que no toma ningún argumento.
+void nuevoejercicio11();
 
-#endif // Fin de la condición de preprocesador
+#endif //NUEVOPUNTO11_H

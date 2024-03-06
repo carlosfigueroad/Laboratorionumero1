@@ -1,17 +1,27 @@
 #include "nuevopunto11.h"
-#include <iostream>
+#include <stdio.h>
 
-// Función para calcular el enésimo número de la serie de Fibonacci
-int fibonacci(int n) {
-    if (n <= 0)
-        return 0;
-    else if (n == 1)
-        return 1;
-    else
-        return fibonacci(n - 1) + fibonacci(n - 2);
+// Función para calcular el MCM de dos números
+int mcm(int a, int b) {
+    int max = (a > b) ? a : b;
+    do {
+        if (max % a == 0 && max % b == 0) {
+            return max;
+        }
+        ++max;
+    } while (true);
 }
 
-void nuevoejercicio11(int n) {
-    int result = fibonacci(n);
-    std::cout << "El número " << n << " de la serie de Fibonacci es: " << result << std::endl;
+// Implementa la función "nuevoejercicio11"
+void nuevoejercicio11() {
+    int num;
+    printf("Por favor, ingresa un numero entero: ");
+    scanf("%d", &num);  // Acepta la entrada del usuario
+
+    int result = 1;
+    for (int i = 2; i <= num; i++) {
+        result = mcm(result, i);
+    }
+
+    printf("El mínimo común múltiplo es: %d\n", result);  // Imprime el resultado
 }

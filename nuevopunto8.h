@@ -4,6 +4,6 @@
 #define NUEVOPUNTO8_H
 
 // Declaración de la función para calcular la suma de múltiplos
-int calcularSumaMultiplos(int a, int b, int c);
+int nuevoejercicio8(int a, int b, int c);
 
 #endif // NUEVOPUNTO8_H

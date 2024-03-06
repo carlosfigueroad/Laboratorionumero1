@@ -1,7 +1,7 @@
 #include "nuevopunto8.h"
 #include <iostream>
 
-int calcularSumaMultiplos(int a, int b, int c) {
+int nuevoejercicio8(int a, int b, int c) {
     int sum = 0; // Inicializa la suma total
 
     // Itera desde 1 hasta c - 1

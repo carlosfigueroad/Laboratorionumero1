@@ -12,10 +12,16 @@
 #include "nuevopunto4.h" // Incluye el archivo de encabezado de NuevoPunto4
 #include "nuevopunto5.h"
 #include "nuevopunto6.h"
+#include "nuevopunto7.h"
 #include "nuevopunto8.h"
 #include "nuevopunto9.h"
 #include "nuevopunto10.h"
 #include "nuevopunto11.h"
+#include "nuevopunto12.h"
+#include "nuevopunto13.h"
+#include "nuevopunto14.h"
+#include "nuevopunto15.h"
+
 using namespace std;
 
 int main(){
@@ -24,7 +30,8 @@ int main(){
     nuevoEjercicio3();
     nuevoejercicio4(1245, 345);  // Llama a la función "nuevoejercicio4" con los argumentos 1245 y 345
     nuevoejercicio5();
-    nuevoejercicio6(3);
+    nuevoejercicio6();
+    nuevoejercicio7();
     int a, b, c;
         std::cout << "Ingresa el valor de a: ";
         std::cin >> a;
@@ -32,20 +39,20 @@ int main(){
         std::cin >> b;
         std::cout << "Ingresa el valor de c: ";
         std::cin >> c;
-
         // Llama a la función y muestra el resultado
-        int resultado = calcularSumaMultiplos(a, b, c);
+        int resultado = nuevoejercicio8(a, b, c);
         std::cout << resultado <<endl;
     nuevoejercicio9();
     int N;
         std::cout << "Ingrese un numero: ";
         std::cin >> N;
-    nuevoejercicio10(N);
-    int N;
-        std::cout << "Ingrese un número para calcular su posición en la serie de Fibonacci: ";
-        std::cin >> N;
 
-        nuevoejercicio11(N);
+    nuevoejercicio10(N);
+    nuevoejercicio11();
+    nuevoejercicio12();
+    nuevoejercicio13();
+    nuevoejercicio14();
+    nuevoejercicio15();
     ejercicio();
     ejercicio2();
     ejercicio3();

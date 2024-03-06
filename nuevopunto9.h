@@ -1,7 +1,7 @@
-#ifndef NUEVOPUNTO9_H  // Si "NUEVOPUNTO9_H" no está definido
-#define NUEVOPUNTO9_H  // Define "NUEVOPUNTO9_H"
+#ifndef NUEVOPUNTO9_H
+#define NUEVOPUNTO9_H
 
-// Declara la función "nuevoejercicio9" que no toma argumentos
+// Declara la función nuevoejercicio9 que no toma ningún argumento.
 void nuevoejercicio9();
 
-#endif // Fin de la condición de preprocesador
+#endif //NUEVOPUNTO9_H
