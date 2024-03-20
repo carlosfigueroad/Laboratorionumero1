@@ -1,23 +1,10 @@
+// Este archivo contiene la implementación de la función 'ejercicio4'.
+// La función convierte una cadena que representa un número en un valor entero usando las funciones atoi y c_str().
+
 #include "punto4.h"
-#include <iostream>
-using namespace std;
+#include <cstdlib>
 
-int ejercicio4() {
-    int A, B;  // Defino dos variables para almacenar los números que el usuario ingresará.
-
-    cout << "Ingrese el primer numero (A): ";
-    cin >> A;  // Guardo el primer número ingresado por el usuario en la variable A.
-    cout << "Ingrese el segundo numero (B): ";
-    cin >> B;  // Guardo el segundo número ingresado por el usuario en la variable B.
-
-    // Ahora, comparo los dos números y determino cuál es el menor.
-    if(A < B) {
-        cout << "El menor es: " << A << endl;  // Si A es menor que B, imprimo A.
-    } else if(B < A) {
-        cout << "El menor es: " << B << endl;  // Si B es menor que A, imprimo B.
-    } else {
-        cout << "Ambos numeros son iguales." << endl;  // Si A y B son iguales, imprimo este mensaje.
-    }
-
-    return 0;
+int ejercicio4(std::string numeroComoCadena) {
+    int numero = std::atoi(numeroComoCadena.c_str());  // Convierte la cadena en un entero usando atoi y c_str().
+    return numero;  // Retorna el número convertido al llamador de la función.
 }

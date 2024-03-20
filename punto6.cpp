@@ -1,15 +1,17 @@
-#include "iostream"
-#include "punto6.h"
-using namespace std;
+#include "punto6.h"   // Incluye el archivo de cabecera con la declaración de ejercicio6
+#include <iostream>    // Incluye la biblioteca estándar de entrada/salida
+#include <string>      // Incluye la biblioteca de manejo de cadenas
 
-// Definición de la función del ejercicio 6
-int ejercicio6(){
-    int A, B, resultado = 1;
-    cout << "Ingrese dos numeros A y B: ";
-    cin >> A >> B;
-    for(int i = 0; i < B; i++){
-        resultado *= A;
+void ejercicio6() {  // Definición de la función ejercicio6.
+    std::string cadena;  // Declaración de la variable cadena de tipo string.
+
+    std::cout << "Ingresa una cadena de texto en minusculas: ";  // Solicitud de la cadena de texto.
+    std::getline(std::cin, cadena);  // Lectura de la cadena de texto ingresada por el usuario.
+
+    // Se recorre cada carácter de la cadena.
+    for (char &c : cadena) {
+        c = std::toupper(c);  // Se convierte el carácter a mayúscula si es una letra minúscula.
     }
-    cout << "A^B = " << resultado << endl;
-    return 0;
+
+    std::cout << "En mayuscula: " << cadena << '\n';  // Se muestra la cadena convertida a mayúsculas.
 }

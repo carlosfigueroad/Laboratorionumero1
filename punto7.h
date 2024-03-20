@@ -1,6 +1,5 @@
-#ifndef PUNTO7_H
-#define PUNTO7_H
+// Inclusión de la biblioteca de cadenas estándar de C++
+#include <string>
 
-int ejercicio7();
-
-#endif // PUNTO7_H
+// Declaración de la función ejercicio7 que no necesita parámetros y devuelve un string
+void ejercicio7();
